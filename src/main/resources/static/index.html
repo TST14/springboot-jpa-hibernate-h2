@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spring Boot Student API</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2em;
+      }
+      .container {
+        max-width: 500px;
+        margin: auto;
+        padding-top: 5em;
+        text-align: center;
+      }
+      a {
+        color: #2255ee;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .h2-settings {
+        background: #f6f7fa;
+        border-radius: 8px;
+        text-align: left;
+        display: inline-block;
+        margin: 1em auto 0 auto;
+        padding: 1em 1.5em;
+        font-size: 0.95em;
+        color: #2d3557;
+      }
+      code {
+        background: #eaeaea;
+        border-radius: 5px;
+        padding: 2px 6px;
+        color: #954800;
+        font-family: Menlo, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the Student API</h1>
+      <p>
+        This is a demo backend powered by Spring Boot, JPA, H2 DB, and Swagger
+        UI.
+      </p>
+      <p>
+        👉
+        <a href="/swagger-ui/index.html"
+          >Go to API Documentation (Swagger UI)</a
+        >
+      </p>
+      <p>
+        👉 <a href="/h2-console" target="_blank">Open H2 Database Console</a>
+      </p>
+      <div class="h2-settings">
+        <strong>H2 Console Settings:</strong>
+        <ul style="list-style: none; padding-left: 0; text-align: left">
+          <li><strong>JDBC URL:</strong> <code>jdbc:h2:mem:testdb</code></li>
+          <li><strong>User Name:</strong> <code>sa</code></li>
+          <li><strong>Password:</strong> <em>(leave blank)</em></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
