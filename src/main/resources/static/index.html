@@ -21,7 +21,9 @@
       a:hover {
         text-decoration: underline;
       }
-      .h2-settings {
+      .h2-settings,
+      .api-credentials,
+      .github-link {
         background: #f6f7fa;
         border-radius: 8px;
         text-align: left;
@@ -52,6 +54,20 @@
           Swagger UI for documentation and testing.
         </strong>
       </p>
+
+      <div class="github-link">
+        <strong>Source Code on GitHub:</strong><br />
+        View the complete project, source code, and deployment instructions
+        at:<br />
+        👉
+        <a
+          href="https://github.com/TST14/springboot-jpa-hibernate-h2"
+          target="_blank"
+        >
+          github.com/TST14/springboot-jpa-hibernate-h2
+        </a>
+      </div>
+
       <p>
         This is a demo backend powered by Spring Boot, JPA, H2 DB, and Swagger
         UI.
@@ -72,6 +88,17 @@
           <li><strong>User Name:</strong> <code>sa</code></li>
           <li><strong>Password:</strong> <em>(leave blank)</em></li>
         </ul>
+      </div>
+      <div class="api-credentials">
+        <strong>Demo Credentials for API Access:</strong>
+        <ul style="list-style: none; padding-left: 0; text-align: left">
+          <li><strong>Username:</strong> <code>demo</code></li>
+          <li><strong>Password:</strong> <code>demo</code></li>
+        </ul>
+        <span style="font-size: 0.93em; color: #364060">
+          Use these credentials in Swagger UI ("Authorize" button) to test
+          secured API endpoints.
+        </span>
       </div>
     </div>
   </body>
